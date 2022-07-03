@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "pfd"
 
 # Language settings
 contentDir = "content/en"
@@ -67,8 +67,8 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "pfd"
+description = "a pfd test site"
 languageName ="English"
 # Weight used for sorting.
 # weight = 1
