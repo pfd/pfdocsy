@@ -108,6 +108,10 @@ section = ["HTML", "print", "RSS"]
 copyright = "The Docsy Authors"
 privacy_policy = "https://policies.google.com/privacy"
 
+[rudderstack]
+rs_write_key = "2C80MATwXzydxNqhGv4bIAztcN5"
+rs_data_plane_url = "https://rudderstacydw.dataplane.rudderstack.com"
+
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
 
