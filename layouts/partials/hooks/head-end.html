@@ -1,2 +1,34 @@
+// Rudderstack
+<script>
+    rudderanalytics = window.rudderanalytics = [];
+    var methods = [
+      "load",
+      "page",
+      "track",
+      "identify",
+      "alias",
+      "group",
+      "ready",
+      "reset",
+      "getAnonymousId",
+      "setAnonymousId",
+    ];
+    for (var i = 0; i < methods.length; i++) {
+      var method = methods[i];
+      rudderanalytics[method] = (function (methodName) {
+        return function () {
+          rudderanalytics.push(
+            [methodName].concat(Array.prototype.slice.call(arguments))
+          );
+        };
+      })(method);
+    }
+  
+    rudderanalytics.load(<WRITE_KEY>, <DATA_PLANE_URL>);
+    rudderanalytics.page();
+  </script>
+<script src="https://cdn.rudderlabs.com/v1.1/rudder-analytics.min.js"></script>
+
+// SheerID
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sheerid/jslib@1.102.1/sheerid.css" integrity="sha256-8Y6ksrNlsWJuljqTNxRywTQOx/EP6hocMRkyJGH6rJM=" type="text/css" crossorigin="anonymous" />
 <script src="https://cdn.jsdelivr.net/npm/@sheerid/jslib@1.102.1/metrics.js" integrity="sha256-KdRmZofemhSwIe1X8piu9wAGjWNHL+WEyGtK/CL3PG4=" crossorigin="anonymous"></script>
