@@ -29,6 +29,7 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 &lt;/div>
 &lt;/div>
 &lt;/code>&lt;/pre>&lt;p>The image will be rendered at the size and byline specified in the front matter.&lt;/p></description></item><item><title>Blog: The second blog post</title><link>/blog/2018/10/06/the-second-blog-post/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>/blog/2018/10/06/the-second-blog-post/</guid><description>
+&lt;script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-142138857-2","auto"),ga("send","pageview"))&lt;/script>
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://github.com">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
 &lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
 &lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
