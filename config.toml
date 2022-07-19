@@ -107,6 +107,7 @@ section = ["HTML", "print", "RSS"]
 [params]
 copyright = "The Docsy Authors"
 privacy_policy = "https://policies.google.com/privacy"
+googleTagManager = "GTM-NVPPBBQ"
 
 [rudderstack]
 rs_write_key = "2C80MATwXzydxNqhGv4bIAztcN5"
