@@ -8,6 +8,8 @@ description: >
   See your project in action!
 ---
 
+{{ partial "googleTagManagerBody.html" . }}
+
 {{% pageinfo %}}
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
