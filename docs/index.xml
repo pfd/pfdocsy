@@ -1868,7 +1868,17 @@ sheerId.loadInlineIframe(
 document.getElementById('my-container'),
 'https://services.sheerid.com/verify/62856b5af125ee46cfd7a1b2/',
 );
-&lt;/script></description></item><item><title>Docs: Example Page</title><link>/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/getting-started/example-page/</guid><description>
+&lt;/script>
+&lt;p>&lt;a class="cool" onclick="displayVerification()">Get that discount&lt;/a>&lt;/p>
+&lt;script>
+function displayVerification() {
+sheerId.loadInModal(
+'https://services.sheerid.com/verify/62856b5af125ee46cfd7a1b2/', {
+mobileRedirect: false,
+});
+}
+&lt;/script>&lt;blockquote>
+&lt;/blockquote></description></item><item><title>Docs: Example Page</title><link>/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/getting-started/example-page/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
