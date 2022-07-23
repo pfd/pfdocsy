@@ -16,3 +16,13 @@ hide_feedback: true
     'https://services.sheerid.com/verify/62856b5af125ee46cfd7a1b2/',
   );
 </script>
+
+<a class="cool" onclick="displayVerification()">Get that discount</a>
+<script>
+  function displayVerification() {
+    sheerId.loadInModal(
+      'https://services.sheerid.com/verify/62856b5af125ee46cfd7a1b2/', {
+        mobileRedirect: false,
+      });
+  }
+</script>

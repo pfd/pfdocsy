@@ -1,4 +1,7 @@
 todo.todo
 .env.*
 /public/
-/resources/_gen/
+resources/
+resources/_gen/
+node_modules/
+package-lock.json
