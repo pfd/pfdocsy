@@ -1860,7 +1860,25 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Embedded form</title><link>/docs/sheerid/embedded/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/sheerid/embedded/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Quora Pixel</title><link>/docs/rudderstack/quora/</link><pubDate>Mon, 12 Sep 2022 16:21:29 -0700</pubDate><guid>/docs/rudderstack/quora/</guid><description>
+&lt;!-- DO NOT MODIFY -->
+&lt;!-- Quora Pixel Code (JS Helper) -->
+&lt;!-- End of Quora Pixel Code -->
+&lt;!-- ### Generic event script
+&lt;script>qp('track', 'Generic');&lt;/script>
+### Page load event
+&lt;script>qp('track', 'Generic');&lt;/script> -->
+&lt;h3 id="inline-action-event">Inline action event&lt;/h3>
+&lt;!-- Add event to the button's click handler -->
+&lt;h3 id="button">Button&lt;/h3>
+&lt;h2 id="drupal-code-example">DRupal code example&lt;/h2>
+&lt;script>
+rudderanalytics.track("Order Completed");
+&lt;/script>
+&lt;script>
+rudderanalytics.track("Cool");
+&lt;/script>
+&lt;!-- End of Quora Pixel Code --></description></item><item><title>Docs: Embedded form</title><link>/docs/sheerid/embedded/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/sheerid/embedded/</guid><description>
 &lt;script src="https://cdn.jsdelivr.net/npm/@sheerid/jslib@1.102.1/sheerid.js" integrity="sha256-4twAwy76jZ/IrDsAdvdIJL8AhLgp0ykGeT1ztEfb7Ks=" crossorigin="anonymous">&lt;/script>
 &lt;div id="my-container">&lt;/div>
 &lt;script>
