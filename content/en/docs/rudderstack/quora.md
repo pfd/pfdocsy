@@ -5,33 +5,10 @@ title: "Quora Pixel"
 linkTitle: "Quora Pixel"
 ---
 
+## Send click handler events to Quora
 
-<!-- DO NOT MODIFY -->
-<!-- Quora Pixel Code (JS Helper) -->
-<!-- End of Quora Pixel Code -->
+<button onclick="rudderanalytics.track('Order Completed');">Generic</button>
 
-<!-- ### Generic event script
-<script>qp('track', 'Generic');</script>
-
-### Page load event
-<script>qp('track', 'Generic');</script> -->
-
-### Inline action event
-<!-- Add event to the button's click handler -->
+<button onclick="rudderanalytics.track('Cool');">Cool</button>
 
 
-### Button
-
-
-
-## DRupal code example
-
-<script>
-    rudderanalytics.track("Order Completed");
-</script>
-<script>
-    rudderanalytics.track("Cool");
-</script>
-
-
-<!-- End of Quora Pixel Code -->
