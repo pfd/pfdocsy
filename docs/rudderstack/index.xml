@@ -1,19 +1,4 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pfd – RudderStack</title><link>/docs/rudderstack/</link><description>Recent content in RudderStack on pfd</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/rudderstack/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Quora Pixel</title><link>/docs/rudderstack/quora/</link><pubDate>Mon, 12 Sep 2022 16:21:29 -0700</pubDate><guid>/docs/rudderstack/quora/</guid><description>
-&lt;!-- DO NOT MODIFY -->
-&lt;!-- Quora Pixel Code (JS Helper) -->
-&lt;!-- End of Quora Pixel Code -->
-&lt;!-- ### Generic event script
-&lt;script>qp('track', 'Generic');&lt;/script>
-### Page load event
-&lt;script>qp('track', 'Generic');&lt;/script> -->
-&lt;h3 id="inline-action-event">Inline action event&lt;/h3>
-&lt;!-- Add event to the button's click handler -->
-&lt;h3 id="button">Button&lt;/h3>
-&lt;h2 id="drupal-code-example">DRupal code example&lt;/h2>
-&lt;script>
-rudderanalytics.track("Order Completed");
-&lt;/script>
-&lt;script>
-rudderanalytics.track("Cool");
-&lt;/script>
-&lt;!-- End of Quora Pixel Code --></description></item></channel></rss>
+&lt;h2 id="send-click-handler-events-to-quora">Send click handler events to Quora&lt;/h2>
+&lt;p>&lt;button onclick="rudderanalytics.track('Order Completed');">Generic&lt;/button>&lt;/p>
+&lt;p>&lt;button onclick="rudderanalytics.track('Cool');">Cool&lt;/button>&lt;/p></description></item></channel></rss>
